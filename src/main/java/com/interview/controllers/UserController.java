@@ -10,9 +10,10 @@ import com.interview.modeles.UserDTo;
 public class UserController {
 	
 	@PostMapping("/registration")
-	void userRegistration(@RequestBody UserDTo userDTo){
+	UserDTo userRegistration(@RequestBody UserDTo userDTo){
 		
 		System.out.println(userDTo.getUserName() +" "+userDTo.getUserPhoneNumber());
+		return userDTo;
 	}
 
 }

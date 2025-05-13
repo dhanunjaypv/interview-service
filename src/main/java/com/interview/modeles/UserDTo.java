@@ -7,6 +7,7 @@ public class UserDTo {
 	
 	private String userName;
 	private String userPhoneNumber;
+	private String userEmailId;
 	public String getUserName() {
 		return userName;
 	}
@@ -18,6 +19,12 @@ public class UserDTo {
 	}
 	public void setUserPhoneNumber(String userPhoneNumber) {
 		this.userPhoneNumber = userPhoneNumber;
+	}
+	public String getUserEmailId() {
+		return userEmailId;
+	}
+	public void setUserEmailId(String userEmailId) {
+		this.userEmailId = userEmailId;
 	}
 	
 	
