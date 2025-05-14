@@ -8,6 +8,7 @@ public class UserDTo {
 	private String userName;
 	private String userPhoneNumber;
 	private String userEmailId;
+	private String userLastName;
 	public String getUserName() {
 		return userName;
 	}
@@ -25,6 +26,12 @@ public class UserDTo {
 	}
 	public void setUserEmailId(String userEmailId) {
 		this.userEmailId = userEmailId;
+	}
+	public String getUserLastName() {
+		return userLastName;
+	}
+	public void setUserLastName(String userLastName) {
+		this.userLastName = userLastName;
 	}
 	
 	
