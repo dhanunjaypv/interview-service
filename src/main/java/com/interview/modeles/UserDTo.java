@@ -11,6 +11,10 @@ public class UserDTo {
 	private String userLastName;
 	private String userDob;
 	private String userAddress;
+	private String userGender;
+	private String userPassword;
+	private String userProfilePicture;
+	private String userEducation;
 	public String getUserName() {
 		return userName;
 	}
@@ -47,4 +51,30 @@ public class UserDTo {
 	public void setUserAddress(String userAddress) {
 		this.userAddress = userAddress;
 	}
+	public String getUserGender() {
+		return userGender;
+	}
+	public void setUserGender(String userGender) {
+		this.userGender = userGender;
+	}
+	public String getUserPassword() {
+		return userPassword;
+	}
+	public void setUserPassword(String userPassword) {
+		this.userPassword = userPassword;
+	}
+	public String getUserProfilePicture() {
+		return userProfilePicture;
+	}
+	public void setUserProfilePicture(String userProfilePicture) {
+		this.userProfilePicture = userProfilePicture;
+	}
+	public String getUserEducation() {
+		return userEducation;
+	}
+	public void setUserEducation(String userEducation) {
+		this.userEducation = userEducation;
+	}
+	
 }
+
