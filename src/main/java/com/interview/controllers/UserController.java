@@ -12,7 +12,7 @@ public class UserController {
 	@PostMapping("/registration")
 	UserDTo userRegistration(@RequestBody UserDTo userDTo){
 		
-		System.out.println(userDTo.getUserName() +" "+userDTo.getUserPhoneNumber());
+		
 		return userDTo;
 	}
 

@@ -9,6 +9,7 @@ public class UserDTo {
 	private String userPhoneNumber;
 	private String userEmailId;
 	private String userLastName;
+	private String userDob;
 	public String getUserName() {
 		return userName;
 	}
@@ -32,6 +33,12 @@ public class UserDTo {
 	}
 	public void setUserLastName(String userLastName) {
 		this.userLastName = userLastName;
+	}
+	public String getUserDob() {
+		return userDob;
+	}
+	public void setUserDob(String userDob) {
+		this.userDob = userDob;
 	}
 	
 	
