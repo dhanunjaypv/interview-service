@@ -10,6 +10,7 @@ public class UserDTo {
 	private String userEmailId;
 	private String userLastName;
 	private String userDob;
+	private String userAddress;
 	public String getUserName() {
 		return userName;
 	}
@@ -39,8 +40,11 @@ public class UserDTo {
 	}
 	public void setUserDob(String userDob) {
 		this.userDob = userDob;
+    }
+	public String getUserAddress() {
+		return userAddress;
 	}
-	
-	
-
+	public void setUserAddress(String userAddress) {
+		this.userAddress = userAddress;
+	}
 }
